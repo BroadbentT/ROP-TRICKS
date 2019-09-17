@@ -14,7 +14,7 @@ Usage: python bittermanx.py bitterman
 
 | LANGUAGE | FILENAME      | MD5 HASH                         | DESCRIPTION                                                        |
 |--------  |---------      |---------                         | -----                                                              |
-| python   | RobCrasher.py | fbe329afcce3f2dec2dedf480204636b | Crash's running rop program to produce the initial segfault offset |
+| python   | RopCrasher.py | fbe329afcce3f2dec2dedf480204636b | Crash's running rop program to produce the initial segfault offset |
 
 - [x] For further information see - http://docs.pwntools.com/en/stable
 
