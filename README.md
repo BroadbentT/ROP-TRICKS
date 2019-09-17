@@ -13,6 +13,7 @@ Usage: python R2LibcRop.py rop_file mode
 
 - [x] For further information see - http://docs.pwntools.com/en/stable/
 - [ ] R2LibcRop currently not installed - updating files.
+- [ ] Example files only shown above.
 
 Return-Oriented Programming (ROP) - is an exploitation technique that bypasses DEP. It does that by chaining together legitimate code that's already in executable memory. This requires the attacker to either a) have complete control of the stack, or b) have control of rip/eip (the instruction pointer register) and the ability to change esp/rsp (the stack pointer) to point to another buffer.
 
