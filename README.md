@@ -4,10 +4,12 @@
 Usage: python R2LibcRop.py rop_file mode
 
 
-| LANGUAGE | FILENAME     | MD5 HASH                         | 
-|--------  |---------     |---------                         | 
-| python   | R2LibcRop.py | |
-| bin      | bitterman    | | 
+| LANGUAGE | FILENAME      | MD5 HASH                         | EXPLOIT METHOD |
+|--------  |---------      |---------                         |                |
+| python   | bitterman1.py | 406e943588a17a7fcdaf7b707f46d120 | Manual         |
+| python   | bitterman2.py | 212bbe6a9e244580f65981221090dbcd | Semi Automatic |
+| elf      | bitterman     | 7bacffdf0ba71b1247f0b7359f253ecc |                |
+| elf      | rlic.so.6     | e63efc14f34504f4ac4cf7d63ed229ca |                |
 
 - [x] For further information see - http://docs.pwntools.com/en/stable/
 - [ ] Currently working on fully automating the process, but this is proving difficult.
