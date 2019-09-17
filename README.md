@@ -5,7 +5,7 @@ Usage: python R2LibcRop.py rop_file mode
 
 
 | LANGUAGE | FILENAME      | MD5 HASH                         | EXPLOIT METHOD |
-|--------  |---------      |---------                         |                |
+|--------  |---------      |---------                         | -----          |
 | python   | bitterman1.py | 406e943588a17a7fcdaf7b707f46d120 | Manual         |
 | python   | bitterman2.py | 212bbe6a9e244580f65981221090dbcd | Semi Automatic |
 | elf      | bitterman     | 7bacffdf0ba71b1247f0b7359f253ecc |                |
