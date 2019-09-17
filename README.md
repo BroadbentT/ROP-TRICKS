@@ -1,7 +1,7 @@
 # ROP TOOLS
 ## PYTHON SCRIPT FILES TO PERFORM RETURN-ORIENTED PROGRAMMING (ROP) EXPLOITS ON VULNERABLE ELF FILES.
 
-Usage: python bittermanx.py bitterman
+Usage: python bitterman1.py or bitterman2.py
 
 | LANGUAGE | FILENAME      | MD5 HASH                         | EXPLOIT METHOD |
 |--------  |---------      |---------                         | -----          |
@@ -9,6 +9,8 @@ Usage: python bittermanx.py bitterman
 | python   | bitterman2.py | ca992d4a6a6daf57cc6509c4b957228b | Semi Automatic |
 | elf      | bitterman     | 7bacffdf0ba71b1247f0b7359f253ecc |                |
 | elf      | rlic.so.6     | e63efc14f34504f4ac4cf7d63ed229ca |                |
+
+Usage: python RopCrasher.py ropfile mode
 
 ## ROP TOOLS
 
