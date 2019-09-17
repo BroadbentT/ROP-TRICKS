@@ -10,9 +10,8 @@ Usage: python bitterman1.py or bitterman2.py
 | elf      | bitterman     | 7bacffdf0ba71b1247f0b7359f253ecc |                |
 | elf      | rlic.so.6     | e63efc14f34504f4ac4cf7d63ed229ca |                |
 
-Usage: python RopCrasher.py ropfile mode
-
 ## ROP TOOLS
+Usage: python RopCrasher.py ropfile mode
 
 | LANGUAGE | FILENAME      | MD5 HASH                         | DESCRIPTION                                                        |
 |--------  |---------      |---------                         | -----                                                              |
