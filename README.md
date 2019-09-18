@@ -13,9 +13,9 @@ Usage: python bitterman1.py or bitterman2.py
 ## ROP TOOLS
 Usage: python RopCrasher.py bitterman mode
 
-| LANGUAGE | FILENAME      | MD5 HASH                         | DESCRIPTION                                                        |
-|--------  |---------      |---------                         | -----                                                              |
-| python   | RopCrasher.py | 3b77ea45fc4751e4d06063e9a8520198 | Crash's running rop program to produce the initial segfault offset |
+| LANGUAGE | FILENAME      | MD5 HASH                         | DESCRIPTION                                                    |
+|--------  |---------      |---------                         | -----                                                          |
+| python   | RopCrasher.py | 3b77ea45fc4751e4d06063e9a8520198 | Crash's running ELF program to produce initial segfault offset |
 
 - [x] For further information see - http://docs.pwntools.com/en/stable
 
