@@ -18,15 +18,12 @@ Return-Oriented Programming (ROP) - is an exploitation technique that bypasses D
 ## BITTERMAN EXPLOIT
 Worked examples of the exploit using the vulnerable binary, bitterman.
 
-| LANGUAGE | FILENAME      | MD5 HASH                         | EXPLOIT METHOD |
+| LANGUAGE | FILENAME      | MD5 HASH                         | DESCRIPTION |
 |--------  |---------      |---------                         | -----          |
-| python   | bitterman1.py | 696abe10a83b8750df38297729387277 | Manual         |
-| python   | bitterman2.py | ca992d4a6a6daf57cc6509c4b957228b | PWN Tools      |
-
-| LANGUAGE | BINARIES      | MD5 HASH                         |
-|--------  |---------      |---------                         |
-| elf      | bitterman     | 7bacffdf0ba71b1247f0b7359f253ecc |
-| elf      | rlic.so.6     | e63efc14f34504f4ac4cf7d63ed229ca |
+| python   | bitterman1.py | 696abe10a83b8750df38297729387277 | Manual Exploit |
+| python   | bitterman2.py | ca992d4a6a6daf57cc6509c4b957228b | PWN Exploit    |
+| elf      | bitterman     | 7bacffdf0ba71b1247f0b7359f253ecc | Vulnerable ELF |
+| elf      | rlic.so.6     | e63efc14f34504f4ac4cf7d63ed229ca | Called Library |
 
 
 
