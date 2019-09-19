@@ -24,8 +24,10 @@ Usage: python bitterman1.py or bitterman2.py
 |--------  |---------      |---------                         | -----          |
 | python   | bitterman1.py | 696abe10a83b8750df38297729387277 | Manual         |
 | python   | bitterman2.py | ca992d4a6a6daf57cc6509c4b957228b | PWN Tools      |
-| elf      | bitterman     | 7bacffdf0ba71b1247f0b7359f253ecc |                |
-| elf      | rlic.so.6     | e63efc14f34504f4ac4cf7d63ed229ca |                |
+
+| LANGUAGE | BINARIES      | MD5 HASH                         |
+| elf      | bitterman     | 7bacffdf0ba71b1247f0b7359f253ecc |
+| elf      | rlic.so.6     | e63efc14f34504f4ac4cf7d63ed229ca |
 
 
 
