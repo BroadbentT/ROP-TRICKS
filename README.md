@@ -5,7 +5,7 @@ Usage: python RopCrasher.py bitterman mode
 
 | LANGUAGE | FILENAME      | MD5 HASH                         | DESCRIPTION                                                    |
 |--------  |---------      |---------                         | -----                                                          |
-| python   | RopCrasher.py | 77faecdba08d11935f11edf6b72c6398 | Crash's running ELF program to produce initial segfault offset |
+| python   | RopCrasher.py | e5b3e514c168351e07cdee0d64333050 | Crash's running ELF program to produce initial segfault offset |
 
 - [x] Recognised modes include: critical, debug, error, info, notset, warn and warning...
 - [x] For further information see - http://docs.pwntools.com/en/stable

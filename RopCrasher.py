@@ -99,6 +99,7 @@ message("Setting up PWNLIB and examining file")
 
 context.clear()
 context(terminal=['tmux', 'new-window'])			# GDP in new window.
+context.timeout = 3
 
 info("------------------------------------- PERTINENT INFORMATION -------------------------------------")
 info("If NIX is enabled, then the stack is read-only and you will need to use a return to libc exploit.")
