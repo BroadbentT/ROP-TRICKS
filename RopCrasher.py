@@ -73,7 +73,7 @@ def header():
    print "\t\t\t\t\t\t\t\t| |_) | | | | |_) | | |   | |_) |  / _ \ \___ \| |_| |  _| | |_) | "
    print "\t\t\t\t\t\t\t\t|  _ <| |_| |  __/  | |___|  _ <  / ___ \ ___) |  _  | |___|  _ <  "
    print "\t\t\t\t\t\t\t\t|_| \_|\___/|_|      \____|_| \_\/_/   \_\____/|_| |_|_____|_| \_\ "
-   print "\n\t\t\t\t\t\t\t\t       BY TERENCE BROADBENT BSc CYBER SECURITY (FIRST CLASS)     "  
+   print "\n\t\t\t\t\t\t\t\t       BY TERENCE BROADBENT BSc CYBER SECURITY (FIRST CLASS)   \n"  
 
 def subhead():
    print "ROP PROGRAM:",
@@ -95,7 +95,7 @@ def message(message):
 
 header()
 subhead()
-message("Examining file and setting up PWNLIB")
+message("Setting up PWNLIB and examining file")
 
 context.clear()
 context(terminal=['tmux', 'new-window'])			# GDP in new window.
@@ -105,7 +105,7 @@ info("If NIX is enabled, then the stack is read-only and you will need to use a 
 info("If CANARY is enabled, then the program checks to see if the stack has been smashed.")
 info("If FORTIFY is enabled, then the program checks for buffer overflow.")
 info("If PIE is disabled, then the program memory locations will stay the same.")
-info("-------------------------------------------------------------------------------------------------")
+#info("-------------------------------------------------------------------------------------------------")
 
 # Automatic
 context.binary    = ropFile
@@ -117,7 +117,7 @@ context.binary    = ropFile
 #context.bits	   = ""
 
 #others
-context.log_file  = 'log.txt'
+#context.log_file  = 'log.txt'
 context.log_level = ropMode
 success("Successfully completed")
 
